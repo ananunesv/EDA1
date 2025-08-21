@@ -7,7 +7,7 @@ while(operacao != 5){
     printf("\nBem vindo a calculadora em C\n \n selecione uma operação matemática: \n 1 - Adicao \n 2 - Subtracao \n 3 - Multipicacao \n 4 - Divisao \n 5 - sair\nOperacao: ");
     scanf("%d", &operacao);
     if (operacao == 0 || operacao >= 5 && operacao!=0)
-        {if (operacao == 5){ printf("Volte sempre!\n");}
+        {if (operacao == 5){ printf("\nVolte sempre!\n");}
         else {printf("\nDigite apenas as opcoes disponiveis!\n");}
         while (getchar()!= '\n'){}}
 else 
